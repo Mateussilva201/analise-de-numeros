@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="https://preview.redd.it/nether-portal-gif-i-got-it-from-the-game-files-and-upscaled-v0-841666uly00b1.gif?format=png8&s=8bf9a48a241ec2695a4c4457b409d0fbfa2feb8d" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="card">
+
+<section>
+
+
+<input type="number" placeholder="Número de 0 a 100" min="0" max="100" id="number">
+<button id="adicionar" onclick="adicionar()">Adicionar</button>
+
+
+
+    <select name="" id="flista" size="5">
+    
+    </select>
+<button  onclick="finalizar()">Finalizar</button>
+
+    <div id="res"></div>
+
+
+
+</section>
+
+
+
+</div>
+ <script src="script.js"></script>
+ <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body {
+    background-image: url('https://i.redd.it/bkzer81qqxh21.png');
+    background-size: cover;
+}
+
+
+    ::selection {
+        background-color: rgb(0, 0, 0);
+        color: rgb(253, 253, 253);
+       
+    }
+
+.card {
+  background-image: url('https://i.pinimg.com/564x/9d/5c/8f/9d5c8f57521051496d4eaa01665f8601.jpg');
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    margin: auto;
+    width: 500px;
+       border: 100px rgb(0, 0, 0) solid;
+       border-image: url('https://i.pinimg.com/originals/03/49/c2/0349c21114b361fdc9a442e582fd27c7.jpg') 100 round;
+       box-shadow: 10px 4px 200px 0px rgba(35, 0, 73, 0.72);
+}
+
+section {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    padding: 20px;
+
+
+    
+}
+input { 
+    width: 200px;
+    border-radius: 5px;
+    border: 1px rgba(248, 248, 248, 0.324) solid;
+        font-family: "Anta", sans-serif;
+     background-color: rgb(255, 255, 255);
+    scrollbar-width: none;
+    
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.793);
+}
+
+button {
+    width: 200px;
+     border-radius: 5px;
+    border: 1px rgba(75, 55, 55, 0.324) solid;
+     font-family: "Antic Slab", serif;
+         font-family: "Anta", sans-serif;
+           background-color: rgb(255, 255, 255);
+}
+
+select {
+    width: 200px;
+     border-radius: 5px;
+    border: 1px rgba(20, 20, 20, 0.792) solid;
+     font-family: "Anta", sans-serif;
+      background-color: rgb(255, 255, 255);
+      scrollbar-width: none;
+}
+ #res {
+        font-family: "Anta", sans-serif;
+        font-size: 12px;
+        color: aliceblue;
+      
+ }
+
+
+
+ </style>
+</body>
+</html>
