@@ -1,4 +1,4 @@
-# Manipulação de DOM, eventos, funções e manipulação de Arrays
+# Manipulação de DOM, eventos, funções e Arrays
 
 
 
